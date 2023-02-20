@@ -1,0 +1,13 @@
+@mixin hover($_property, $_toValue) {
+  transition: #{$_property} 0.3s;
+  &:hover {
+    #{$_property}: $_toValue;
+  }
+}
+
+@mixin h1-text {
+  size: 60px;
+  font-weight: 500;
+  color: $text-color;
+  line-height: 72px;
+}

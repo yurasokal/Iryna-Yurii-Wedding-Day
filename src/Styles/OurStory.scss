@@ -1,0 +1,31 @@
+.our-story {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+
+    color: $text-white;
+    background-color: $primary-socond;
+  }
+
+  &__heading {
+    font-size: 101px;
+    line-height: 101px;
+    padding: 0 120px;
+  }
+
+  &__text-wrapper {
+    padding: 40px 80px;
+  }
+
+  &__text {
+    margin: 25px 0;
+    font-size: 22px;
+  }
+}
