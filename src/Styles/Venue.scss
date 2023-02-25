@@ -1,0 +1,77 @@
+.venue {
+  display: flex;
+  padding-top: 90px;
+
+  &__wrapper {
+    padding: 30px 120px 0;
+  }
+
+  &__venue {
+    font-size: 18px;
+    color: $primary;
+  }
+
+  &__villa-name {
+    font-size: 56px;
+    margin: 0;
+    color: $venue-heading;
+  }
+
+  &__text {
+    font-size: 18px;
+    color: $venue-text;
+  }
+
+  &__address {
+    font-size: 18px;
+    color: $venue-text;
+  }
+
+  &__img {
+    padding-right: 120px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  &__img1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+    @media screen and (max-width: 1280px) {
+      width: 80%;
+      top: 7px;
+      left: 7px;
+    }
+  }
+
+  &__img2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    @media screen and (max-width: 1280px) {
+      width: 80%;
+    }
+  }
+
+  &__img3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    @media screen and (max-width: 1280px) {
+      width: 80%;
+
+    }
+  }
+
+  &__vector {
+    display: flex;
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+}

@@ -1,5 +1,4 @@
 .header {
-
   &__nav {
     display: flex;
     flex-direction: row;
@@ -10,6 +9,7 @@
       margin: 20px 40px;
       color: $text-primary;
       cursor: pointer;
+      text-decoration: none;
     }
   }
 

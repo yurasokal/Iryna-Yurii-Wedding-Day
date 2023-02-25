@@ -1,0 +1,16 @@
+.accomodation {
+  display: flex;
+
+  &__place {
+    padding: 0 120px;
+  }
+
+  &__name {
+    font-size: 43px;
+    color: $venue-heading;
+  }
+
+  &__text {
+    color: $venue-text;
+  }
+}

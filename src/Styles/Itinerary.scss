@@ -1,0 +1,62 @@
+.itinerary {
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__wedding-day-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__heading {
+    font-size: 56px;
+    color: $venue-heading;
+    padding-top: 30px;
+  }
+
+  &__days {
+    display: flex;
+    padding: 20px;
+  }
+
+  &__day-button {
+    padding: 15px 28px;
+    border: none;
+    background-color: $background-color;
+    cursor: pointer;
+  }
+
+  &__active-button {
+    padding: 15px 28px;
+    border: none;
+    background-color: $background-color;
+    color: $venue-heading;
+    cursor: pointer;
+  }
+}
+
+.wedding-day {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  &__wrapper {
+    display: flex;
+  }
+
+  &__time {
+    color: $primary;
+    padding: 0 140px 0 40px;
+    margin: 10px 0 0;
+  }
+
+  &__todo-heading {
+    color: $venue-heading;
+    font-size: 32px;
+    margin: 0;
+  }
+}
