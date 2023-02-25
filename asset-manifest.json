@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/Iryna-Yurii-Wedding-Day/static/css/main.1b0e17b4.css",
-    "main.js": "/Iryna-Yurii-Wedding-Day/static/js/main.d9393ef3.js",
-    "static/media/rings.png": "/Iryna-Yurii-Wedding-Day/static/media/rings.253f11e86fb1688f18bf.png",
+    "main.css": "/Iryna-Yurii-Wedding-Day/static/css/main.2acc60fe.css",
+    "main.js": "/Iryna-Yurii-Wedding-Day/static/js/main.a750e445.js",
+    "static/media/mainPhotoAnalog2.jpg": "/Iryna-Yurii-Wedding-Day/static/media/mainPhotoAnalog2.4208f53b07000b3c3d8b.jpg",
+    "static/media/venue1.png": "/Iryna-Yurii-Wedding-Day/static/media/venue1.4ffa38ee511818863025.png",
+    "static/media/venue3.png": "/Iryna-Yurii-Wedding-Day/static/media/venue3.4ffc1d9a09b694b7fb7d.png",
+    "static/media/venue2.png": "/Iryna-Yurii-Wedding-Day/static/media/venue2.86b06175f5cf932a35fb.png",
+    "static/media/churchVector.svg": "/Iryna-Yurii-Wedding-Day/static/media/churchVector.42c0d6a54e939b4ee4e3710d3491079f.svg",
+    "static/media/walking3.jpg": "/Iryna-Yurii-Wedding-Day/static/media/walking3.e2d09ca9ef8af0711c26.jpg",
+    "static/media/venueVector.svg": "/Iryna-Yurii-Wedding-Day/static/media/venueVector.7ca1b7fc514ec2fe6db8f5e56b5d7b01.svg",
     "static/media/logo.png": "/Iryna-Yurii-Wedding-Day/static/media/logo.4244a84798da903ee62c.png",
     "index.html": "/Iryna-Yurii-Wedding-Day/index.html",
     "static/media/getFetch.cjs": "/Iryna-Yurii-Wedding-Day/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.1b0e17b4.css.map": "/Iryna-Yurii-Wedding-Day/static/css/main.1b0e17b4.css.map",
-    "main.d9393ef3.js.map": "/Iryna-Yurii-Wedding-Day/static/js/main.d9393ef3.js.map"
+    "main.2acc60fe.css.map": "/Iryna-Yurii-Wedding-Day/static/css/main.2acc60fe.css.map",
+    "main.a750e445.js.map": "/Iryna-Yurii-Wedding-Day/static/js/main.a750e445.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b0e17b4.css",
-    "static/js/main.d9393ef3.js"
+    "static/css/main.2acc60fe.css",
+    "static/js/main.a750e445.js"
   ]
 }
