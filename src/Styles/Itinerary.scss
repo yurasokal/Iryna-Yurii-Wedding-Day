@@ -27,6 +27,23 @@
     border: none;
     background-color: $background-color;
     cursor: pointer;
+    position: relative;
+
+    &::after {
+      display: block;
+      position: absolute;
+      bottom: 7px;
+      left: 25px;
+      width: 0;
+      height: 1px;
+      background-color: $text-primary;
+      content: "";
+      transition: width 0.3s ease-out;
+    }
+
+    &:hover::after {
+      width: calc(100% - 2 * #{25px});
+    }
   }
 
   &__active-button {

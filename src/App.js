@@ -2,6 +2,8 @@ import './App.scss';
 import { useState } from 'react';
 import Itinerary from './Components/Itinerary';
 import { useTranslation, Trans } from 'react-i18next';
+import FAQ from './Components/FAQ';
+import CarouselSlider from './Components/CarouselSlider';
 
 import { Link, Route, Routes } from 'react-router-dom';
 import Navbar from './navbar';
@@ -34,7 +36,7 @@ function App() {
           <a className="header__home header__nav-name" href="#home">{t('navigation.home')}</a>
           <a className="header__story header__nav-name" href="#our-story">{t('navigation.our-story')}</a>
           <a className="header__venue header__nav-name" href="#venue">{t('navigation.venue')}</a>
-          <div className="header__logo header__nav-name">
+          <div className="header__logo">
             <img
               src={logo}
               className="header__logo-wrapper"
@@ -42,7 +44,7 @@ function App() {
             />
           </div>
           <a className="header__itinerary header__nav-name" href="#itinerary">{t('navigation.itinerary')}</a>
-          <a className="header__faq header__nav-name" href="#FAQ">{t('navigation.FAQ')}</a>
+          <a className="header__faq header__nav-name" href="#faq">{t('navigation.FAQ')}</a>
           <a className="header__other header__nav-name" href="#other">{t('navigation.other')}</a>
           {/* <div>
             {Object.keys(lngs).map((lng) => (
@@ -106,9 +108,9 @@ function App() {
           </div>
         </article>
         <img
-          src={venueVector}
+          src={churchVector}
           className="venue__vector"
-          alt="villa giani venue wedding flowers"
+          alt="church wedding flowers"
         />
         <article className="accomodation">
           <div className="accomodation__place">
@@ -129,10 +131,12 @@ function App() {
           <Itinerary />
         </article>
         <img
-          src={churchVector}
+          src={venueVector}
           className="venue__vector"
-          alt="church wedding flowers"
+          alt="villa giani venue wedding flowers"
         />
+        <FAQ />
+        <CarouselSlider />
       </main>
     </>
   );

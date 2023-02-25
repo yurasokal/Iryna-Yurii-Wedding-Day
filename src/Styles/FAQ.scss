@@ -1,0 +1,28 @@
+.faq {
+  &__heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+
+    font-size: 56px;
+    color: $venue-heading;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 20px 120px;
+    max-width:70%;
+    width: 70%;
+    min-width: 70%;
+    margin: auto;
+  }
+}
+
+.ant-space-item {
+  width: 600px!important;
+}
