@@ -56,24 +56,30 @@
 }
 
 .wedding-day {
-  width: 70%;
+  // width: 70%;
   display: flex;
   justify-content: center;
   flex-direction: column;
 
   &__wrapper {
-    display: flex;
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
   }
 
   &__time {
     color: $primary;
-    padding: 0 140px 0 40px;
-    margin: 10px 0 0;
+    padding: 0 40px 0;
+    margin: 17px 0 0;
+    width: 220px;
   }
 
   &__todo-heading {
     color: $venue-heading;
     font-size: 32px;
     margin: 0;
+  }
+
+  &__todo-text {
+    padding-left: 40px;
   }
 }

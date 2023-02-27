@@ -1,0 +1,12 @@
+.language {
+  position: absolute;
+  top: 35px;
+  right: 35px;
+  display: flex;
+
+  &__button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+}

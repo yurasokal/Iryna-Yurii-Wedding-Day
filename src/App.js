@@ -19,11 +19,12 @@ import venue3 from './Assets/venue3.png';
 import venueVector from './Assets/venueVector.svg';
 import churchVector from './Assets/churchVector.svg';
 import mainPhoto from './Assets/mainPhotoAnalog2.jpg';
+import churchInside from './Assets/churchInside.jpg';
 
 const lngs = {
-  en: { nativeName: 'English' },
-  de: { nativeName: 'Deutsch' },
-  ua: { nativeName: 'Ukrainian' }
+  en: { nativeName: 'EN' },
+  ua: { nativeName: 'UA' },
+  de: { nativeName: 'DE' }
 };
 
 function App() {
@@ -45,14 +46,14 @@ function App() {
           </div>
           <a className="header__itinerary header__nav-name" href="#itinerary">{t('navigation.itinerary')}</a>
           <a className="header__faq header__nav-name" href="#faq">{t('navigation.FAQ')}</a>
-          <a className="header__other header__nav-name" href="#other">{t('navigation.other')}</a>
-          {/* <div>
+          <a className="header__other header__nav-name" href="#photos">{t('navigation.photos')}</a>
+          <div className="language">
             {Object.keys(lngs).map((lng) => (
-              <button key={lng} style={{ fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }} type="submit" onClick={() => i18n.changeLanguage(lng)}>
+              <button key={lng} className="language__button" style={{ fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }} type="submit" onClick={() => i18n.changeLanguage(lng)}>
                 {lngs[lng].nativeName}
               </button>
             ))} 
-          </div> */}   {/* switch language, will make this after everything */}
+          </div>
         </nav>
       </header>
       <main>
@@ -107,6 +108,22 @@ function App() {
               />
           </div>
         </article>
+        <article className="church">
+          <div className="venue__img venue__img--church">
+            <img
+                src={churchInside}
+                className="venue__img4"
+                alt="villa giani venue wedding flowers"
+              />
+          </div>
+          <div className="venue__wrapper venue__wrapper--church">
+            <p className="venue__venue">{t('church.church')}</p>
+            <p className="venue__villa-name">{t('church.church-name')}</p>
+            <p className="venue__text">{t('church.text')}</p>
+            <p className="venue__address">{t('church.address')}</p>
+            <p className="venue__address">{t('church.address2')}</p>
+          </div>
+        </article>
         <img
           src={churchVector}
           className="venue__vector"
@@ -118,8 +135,8 @@ function App() {
             <div className="accomodation__description">{t('accomodation.apartment1-description')}</div>
           </div>
           <div className="accomodation__place">
-            <div className="accomodation__name">{t('accomodation.apartment1')}</div>
-            <div className="accomodation__description">{t('accomodation.apartment1-description')}</div>
+            <div className="accomodation__name">{t('accomodation.apartment2')}</div>
+            <div className="accomodation__description">{t('accomodation.apartment2-description')}</div>
           </div>
         </article>
         <img
@@ -136,8 +153,17 @@ function App() {
           alt="villa giani venue wedding flowers"
         />
         <FAQ />
+        <article className="slider__heading" id="photos">{t('slider.heading')}</article>
         <CarouselSlider />
       </main>
+      <footer className="footer">
+        <p className="footer__text footer__rights">
+          <span className="footer__copyright">
+            2023 
+          </span>
+            © Yurii Chabarenko
+        </p>
+      </footer>
     </>
   );
 }

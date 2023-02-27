@@ -1,0 +1,41 @@
+.main-slide {
+  padding-top: 30px;
+}
+
+.carousel .slider-wrapper {
+  width: 50%;
+}
+
+.carousel .thumb {
+  width: 5%;
+  height: 50px;
+}
+
+.carousel {
+  text-align: center;
+}
+
+.carousel__img {
+  // height: 300px;
+  // width: 300px;
+  object-fit: contain;
+  max-width: 27%;
+}
+
+.slider {
+  &__heading {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: 56px;
+    color: $venue-heading;
+  }
+}
+
+.control-next {
+  padding-left: 150px !important;
+}
+
+.control-prev {
+  padding-right: 150px !important;
+}
