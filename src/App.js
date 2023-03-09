@@ -90,22 +90,24 @@ function App() {
             <p className="venue__address">{t('venue.address')}</p>
             <p className="venue__address">{t('venue.address2')}</p>
           </div>
-          <div className="venue__img">
-            <img
-                src={venue2}
-                className="venue__img2"
-                alt="villa giani venue wedding flowers"
-              />
-            <img
-                src={venue3}
-                className="venue__img3"
-                alt="villa giani venue wedding flowers"
-              />
-            <img
-                src={venue1}
-                className="venue__img1"
-                alt="villa giani venue wedding flowers"
-              />
+          <div className="venue__img-wrapper">
+            <div className="venue__img venue__img--mobile">
+              <img
+                  src={venue2}
+                  className="venue__img2"
+                  alt="villa giani venue wedding flowers"
+                />
+              <img
+                  src={venue3}
+                  className="venue__img3"
+                  alt="villa giani venue wedding flowers"
+                />
+              <img
+                  src={venue1}
+                  className="venue__img1"
+                  alt="villa giani venue wedding flowers"
+                />
+            </div>
           </div>
         </article>
         <article className="church">
@@ -122,6 +124,13 @@ function App() {
             <p className="venue__text">{t('church.text')}</p>
             <p className="venue__address">{t('church.address')}</p>
             <p className="venue__address">{t('church.address2')}</p>
+          </div>
+          <div className="venue__mobile-img">
+            <img
+                src={churchInside}
+                className="venue__img4"
+                alt="villa giani venue wedding flowers"
+              />
           </div>
         </article>
         <img
@@ -153,8 +162,8 @@ function App() {
           alt="villa giani venue wedding flowers"
         />
         <FAQ />
-        <article className="slider__heading" id="photos">{t('slider.heading')}</article>
-        <CarouselSlider />
+        {/* <article className="slider__heading" id="photos">{t('slider.heading')}</article>
+        <CarouselSlider /> */}
       </main>
       <footer className="footer">
         <p className="footer__text footer__rights">

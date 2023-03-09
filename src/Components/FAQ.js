@@ -38,7 +38,7 @@ function FAQ() {
               </Panel>
             </Collapse>
             <Collapse collapsible="header" defaultActiveKey={['2']}>
-              <Panel header={t("faq.question1")} key="5">
+              <Panel header={t("faq.question5")} key="5">
                 <p>{t("faq.answer5")}</p>
               </Panel>
             </Collapse>

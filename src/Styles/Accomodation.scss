@@ -1,17 +1,52 @@
 .accomodation {
   display: flex;
 
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
+
   &__place {
     padding: 0 120px;
     max-width: 50%;
+
+    @media screen and (max-width: 768px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0 30px;
+      max-width: 100%;
+    }
   }
 
   &__name {
     font-size: 43px;
     color: $venue-heading;
+
+    @media screen and (max-width: 768px) {
+      font-size: 36px;
+      padding-bottom: 10px;
+    }
+
+    @media screen and (max-width: 430px) {
+      font-size: 33px;
+    }
+    @media screen and (max-width: 400px) {
+      font-size: 32px;
+    }
+    @media screen and (max-width: 380px) {
+      font-size: 30px;
+    }
   }
 
   &__text {
     color: $venue-text;
+  }
+
+  &__description {
+    @media screen and (max-width: 768px) {
+      font-size: 16px;
+      padding-bottom: 30px;
+    }
   }
 }

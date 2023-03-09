@@ -7,6 +7,21 @@
 
     font-size: 56px;
     color: $venue-heading;
+
+    @media screen and (max-width: 768px) {
+      padding-top: 0;
+      font-size: 32px;
+    }
+
+    @media screen and (max-width: 500px) {
+      padding-top: 0;
+      font-size: 28px;
+    }
+
+    @media screen and (max-width: 380px) {
+      padding-top: 0;
+      font-size: 24px;
+    }
   }
 
   &__wrapper {
@@ -25,4 +40,8 @@
 
 .ant-space-item {
   width: 600px!important;
+
+  @media screen and (max-width: 768px) {
+    width: 300px!important;
+  }
 }

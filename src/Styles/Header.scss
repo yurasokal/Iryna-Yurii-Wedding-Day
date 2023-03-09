@@ -5,12 +5,20 @@
     align-items: center;
     justify-content: center;
 
+    @media screen and (max-width: 768px) {
+      // display: none;
+    }
+
     &-name {
       margin: 20px 40px;
       color: $text-primary;
       cursor: pointer;
       text-decoration: none;
       position: relative;
+
+      @media screen and (max-width: 768px) {
+        display: none;
+      }
 
       &::after {
         display: block;

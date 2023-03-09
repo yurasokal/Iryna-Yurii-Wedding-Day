@@ -56,7 +56,7 @@ i18n
             "apartment2-description": "Villa Maggie on Lake Como, Via Sant'Antonio 15, 23864 Malgrate, Italy. To Villa Giani 12min by car (10km). Modern apartments with their own kitchen, a view of the lake and, if the booking is correct, with an open-air swimming pool"
           },
           "itinerary": {
-            "heading": "Маршрут",
+            "heading": "Itinerary",
             "day1": "Friday, May 12",
             "day2": "Saturday, May 13",
             "day3": "Sunday, May 14",
@@ -124,12 +124,12 @@ i18n
             "photos": "Фото"
           },
           "home": {
-            "join": "Будь ласка, приєднуйтесь до нас, щоб відсвяткувати",
+            "join": "Запрошуємо вас на весілля",
             "name": "Ірина & Юрій",
             "details": "13 Травня 2023р  -  Annone di Brianza, Італія"
           },
           "our-story": {
-            "heading": "Our Story",
+            "heading": "Наша Історія",
             "text1": "В жовтні 2019 року нас обох закрутила в ритмі танцю бачата й не відпускає до тепер",
             "text2": "Нашій пара з одноого боку і не довго часу, але разом ми пережили пандемію, багато спільних поїздок, життя разом та розлуку війною",
             "text3": "Наш шлюб - це перший камінчик, в будівництві нашої сім'ї, нашої довгої подорожі дорогою в спільне життя. То ж запрошуємо вас долучитися до нас в цей день"
@@ -155,6 +155,7 @@ i18n
             "apartment2-description": "Вілла Меггі на озері Комо, Via Sant'Antonio 15, 23864 Мальта, Італія. Від Вілли Джіані потрібно 12 хвилинах дороги автомобілем (10 км). Сучасні апартаменти із своєю кухнею, виглядом на озеро і якщо букінг пише правду з басейном під відкритим небом"
           },
           "itinerary": {
+            "heading": "Маршрут",
             "day1": "Пятниця, 12 травня",
             "day2": "Субота, 13 травня",
             "day3": "Неділя, 14 травня",

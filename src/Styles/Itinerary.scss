@@ -20,6 +20,10 @@
   &__days {
     display: flex;
     padding: 20px;
+
+    @media screen and (max-width: 768px) {
+      padding: 0;
+    }
   }
 
   &__day-button {
@@ -44,10 +48,14 @@
     &:hover::after {
       width: calc(100% - 2 * #{25px});
     }
+
+    @media screen and (max-width: 768px) {
+      padding: 0;
+    }
   }
 
   &__active-button {
-    padding: 15px 28px;
+    // padding: 15px 28px;
     border: none;
     background-color: $background-color;
     color: $venue-heading;
