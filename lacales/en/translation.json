@@ -1,7 +1,5 @@
 {
-  "title": "Willkommen zu react and react-i18next",
-  "description": {
-    "part1": "English title1",
-    "part2": "Iryna & Yurii ENGLISH wedding page"
-  }
+  "Breakfast": "Breakfast",
+  "Walking to a lake Annone": "Walking to a lake Annone",
+  "Barbeque party": "Barbeque party"
 }
