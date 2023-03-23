@@ -25,7 +25,8 @@ i18n
             "photos": "Photos"
           },
           "home": {
-            "join": "Please join us to celebrate",
+            "join1": "Dear Friends and Family,",
+            "join2": "Please join us to celebrate our wedding",
             "name": "Iryna & Yurii",
             "details": "May 13, 2023  -  Annone di Brianza, Italy"
           },
@@ -64,30 +65,71 @@ i18n
           },
           "faq": {
             "faq": "FAQ",
-            "question1": "What bring with you",
-            "answer1": "kda kaksdnkasn dkanskdnaskldnasnd;kasndkl; asndknaskdnas;kdnkasndkasndk;asndk nask dnaskdn aksnd kansdkans dla",
-            "question2": "Thursday, Monday",
-            "answer2": "aaa",
-            "question3": "",
-            "answer3": "",
-            "question4": "",
-            "answer4": "",
+            "question1": "What to bring with you?",
+            "answer1": "For your convenience, we recommend that you bring slippers with you",
+            "question2": "Accommodation",
+            "answer2": "For a family we rent a whole villa from Friday afternoon to Monday morning, for friends an apartment from Friday to Sunday near our villa (10 minutes by car)",
+            "question3": "Thursday, Monday",
+            "answer3": "В четвер ввечері прилітає частина родини, після чого вони зупиняться в Мілані на ночівлю. В п'ятницю зранку прогуляються центром Мілану і на обід будуть на віллі. В понеділок з раненького ранку більшість людей вилітає",
+            "question4": "Wedding dress code",
+            "answer4": "We will be glad if you support the light range with your outfits. Main color: light brown with a cream shade",
             "question5": "Gifts",
-            "answer5": "",
-            "question6": "",
-            "answer6": "",
+            "answer5": "Оскільки станом на зараз в нас досі немає житла, а також дорога додому буде далека, тому ми б просили утриматися від габаритних подарунків. Ваші побажання в конвертах будуть найкращими подарунками, які зможуть допомогти виповнити наші мрії",
+            "question6": "Weather",
+            "answer6": "It is expected to be 22°C during the day and 15°C at night, short-term rains are possible. In previous years, the temperature varied between 17-23°C during the day and 14-20°C at night",
           },
           "slider": {
             "heading": "Photo gallery"
-          }
+          },
+          "relax": {
+            "Breakfast": "Breakfast",
+            "Walking to a lake Annone": "Walking to a lake Annone",
+            "Barbeque party": "Barbeque party"
+          },
+          "day1": {
+            "time1": "8pm - 11am",
+            "text1": "Walking in Milano",
+            "time2": "1pm",
+            "text2": "Villa Check-in",
+            "time3": "2pm",
+            "text3": "Light snack time",
+            "time4": "6pm",
+            "text4": "Dinner",
+            "time5": "10pm",
+            "text5": "Sleep well"
+          },
+          "day2": {
+            "time1": "9am 30m",
+            "text1": "Bride redemption, Ukrainian traditions",
+            "time2": "10am 30m",
+            "text2": "Departure from Villa Giani to church",
+            "time3": "11am 30m",
+            "text3": "Church",
+            "time4": "12am 20m",
+            "text4": "Walking in Como",
+            "time5": "14am 20m",
+            "text5": "Departure from Como to Villa Giani",
+            "time6": "15am 30m",
+            "text6": "Сongratulations to the new married couple",
+            "time7": "16am 00m",
+            "text7": "Celebration in a Villa Gianni"
+          },
+          "day3": {
+            "time1": "11am",
+            "text1": "Breakfast",
+            "time2": "12pm",
+            "text2": "Walking to a lake Annone",
+            "time3": "1pm",
+            "text3": "Barbeque party"
+          },
+          "day4": {
+            "time1": "7am - 11am",
+            "text1": "Departure from the villa",
+          },
         }
       },
       de: {
         translation: {
-          "description": {
-            "part1": 'Ändere <1>src/App.js</1> und speichere um neu zu laden.',
-            "part2": 'Ірина & Юрій deutsch page'
-          },
           "navigation": {
             "home": "Hōm",
             "our-story": "Unsere Geschichte",
@@ -97,24 +139,104 @@ i18n
             "photos": "Photos"
           },
           "home": {
-            "join": "Bitte feiern Sie mit uns",
+            "join1": "Liebe Freunde und Familie",
+            "join2": "Wir laden Sie zu unserer Hochzeit ein",
             "name": "Iryna & Yurii",
             "details": "13. Mai 2023  -  Annone di Brianza, Italien"
           },
           "our-story": {
-            "heading": "Our Story",
-            "text1": "В жовтні 2019 року нас обох закрутила в ритмі танцю бачата й не відпускає нас до тепер",
-            "text2": "Нашій пара з одноого боку і не довго часу, але разом ми пережили пандемію, багато спільних поїздок, життя разом та розлуку війною",
-            "text3": "Наш шлюб - це перший камінчик, в будівництві нашої сім'ї, нашої довгої подорожі дорогою в спільне життя. То ж запрошуємо вас долучитися до нас в цей день"
+            "heading": "Unsere Geschichte",
+            "text1": "Im Herbst 2019 verfielen wir beide in den Rhythmus des Tanzes, der unser Leben um 180° drehte und bis heute nicht mehr loslässt",
+            "text2": "Unser Paar ist noch nicht viele Jahre alt, aber zusammen haben wir es geschafft, die Pandemie, gemeinsame Reisen, Reparaturen, das Zusammenleben und die Trennung durch den Krieg zu überstehen",
+            "text3": "Unsere Ehe ist der erste Stein beim Aufbau unserer Familie, unsere lange Reise auf dem Weg zu einem gemeinsamen Leben. Wir laden Sie ein, an diesem Tag dabei zu sein"
+          },
+          "church": {
+            "church": "Ukrainische Griechisch-Katholische Kirche",
+            "church-name": "Kirche San Donnino",
+            "text": "Die Trauung wird von Pater Mykola aus Lemberg durchgeführt, der den Zweig der griechisch-katholischen Kirche in Komo leitet",
+            "address": "Via Armando Diaz, 125",
+            "address2": "Como, Italien"
+          },
+          "accomodation": {
+            "apartment1": "Villa für eine Familie",
+            "apartment1-description": "Die Villa Giani, ein Gebäude aus dem 18. Jahrhundert, befindet sich in Annone di Brianza in der Lombardei, inmitten eines weitläufigen Gartens mit Olivenbäumen. Während Ihres Aufenthalts in der Villa können Sie sich selbst als Schauspieler in einem der alten italienischen Filme vorstellen. Die Entfernung von der Villa Gianni zur Stadt Como beträgt 35 Minuten (24 km). Das Zentrum von Mailand, der Flughafen Mailand Bergamo, ist in 55 Minuten (46 km) zu erreichen. Der Flughafen Malpensa ist in 55 Minuten (66 km) zu erreichen. Lugano (Schweiz) ist in 65 Minuten (64 km) erreichbar. Nürnberg (Deutschland) ist in 6 Stunden (600 km) zu erreichen)",
+            "apartment2": "Wohnung für Freunde",
+            "apartment2-description": "Villa Maggie am Comer See, Via Sant'Antonio 15, 23864 Malta, Italien. Es dauert 12 Minuten mit dem Auto (10 km) von der Villa Giani. Moderne Appartements mit eigener Küche, Seeblick und bei korrekter Buchung mit Freibad"
+          },
+          "itinerary": {
+            "heading": "Route",
+            "day1": "Freitag, 12. Mai",
+            "day2": "Samstag, 13. Mai",
+            "day3": "Sonntag, 14. Mai",
+            "day4": "Понеділок, 15 травня"
+          },
+          "faq": {
+            "faq": "Відповіді на часті запитання",
+            "question1": "Що взяти з собою",
+            "answer1": "Для вашої зручності рекомендуємо вам взяти з собою тапочки",
+            "question2": "Проживання",
+            "answer2": "Для сім'ї ми орендуємо цілу віллу з обіду пятниці до ранку понеділка, для друзів апартаменти з пятниці по неділю неподалік нашої вілли (10хв їзди автомобілем)",
+            "question3": "Четвер, Понеділок",
+            "answer3": "В четвер ввечері прилітає частина родини, після чого вони зупиняться в Мілані на ночівлю. В п'ятницю зранку прогуляються центром Мілану і на обід будуть на віллі. В понеділок з раненького ранку більшість людей вилітає",
+            "question4": "Весільний дрес код",
+            "answer4": "Ми будемо раді, якщо своїми нарядами ви підтримаєте світлову гамму. Основний колір: світло-брунатний з кремовим відтінком",
+            "question5": "Подарунки",
+            "answer5": "Оскільки станом на зараз в нас досі немає житла, а також дорога додому буде далека, тому ми б просили утриматися від габаритних подарунків. Ваші побажання в конвертах будуть найкращими подарунками, які зможуть допомогти виповнити наші мрії",
+            "question6": "Погода",
+            "answer6": "Очікується 22°C вдень та 15°C вночі, можливі короткочасні опади. Попередні роки температура варіювалась 17-23°C вдень та 14-20°C вночі",
+          },
+          "slider": {
+            "heading": "Фото галерея"
+          },
+          "relax": {
+            "Breakfast": "Сніданок",
+            "Walking to a lake Annone": "Прогулянка до Озера Анноне",
+            "Barbeque party": "Барбекю"
+          },
+          "day1": {
+            "time1": "8.00 - 11.00",
+            "text1": "Прогулянка по Мілані",
+            "time2": "13.00",
+            "text2": "Заїзд на Віллу",
+            "time3": "14.00",
+            "text3": "Легкий перекус",
+            "time4": "18.00",
+            "text4": "Вечеря",
+            "time5": "10pm",
+            "text5": "Добраніч"
+          },
+          "day2": {
+            "time1": "9am 30m",
+            "text1": "Викуп нареченої, українські традиції",
+            "time2": "10am 30m",
+            "text2": "Виїзд з вілли до церкви",
+            "time3": "11am 30m",
+            "text3": "Шлюб в церкві",
+            "time4": "12am 20m",
+            "text4": "Прогулянка Комо",
+            "time5": "14am 20m",
+            "text5": "Виїзд з Комо до Вілли",
+            "time6": "15am 30m",
+            "text6": "Вітання молодят",
+            "time7": "16am 00m",
+            "text7": "Святкування"
+          },
+          "day3": {
+            "time1": "11am",
+            "text1": "Сніданок",
+            "time2": "12pm",
+            "text2": "Прогулянка до Озера Анноне",
+            "time3": "1pm",
+            "text3": "Барбекю"
+          },
+          "day4": {
+            "time1": "7am-11am",
+            "text1": "Виселення з Вілли",
           },
         }
       },
       ua: {
         translation: {
-          "description": {
-            "part1": 'Укр <1>src/App.js</1> змінити',
-            "part2": 'Ірина & Юрій. Весільна сторінка'
-          },
           "navigation": {
             "home": "Головна",
             "our-story": "Наша історія",
@@ -124,20 +246,21 @@ i18n
             "photos": "Фото"
           },
           "home": {
-            "join": "Запрошуємо вас на весілля",
+            "join1": "Шановні друзі та родино,",
+            "join2": "Запрошуємо вас на наше весілля !",
             "name": "Ірина & Юрій",
             "details": "13 Травня 2023р  -  Annone di Brianza, Італія"
           },
           "our-story": {
             "heading": "Наша Історія",
-            "text1": "В жовтні 2019 року нас обох закрутила в ритмі танцю бачата й не відпускає до тепер",
-            "text2": "Нашій пара з одноого боку і не довго часу, але разом ми пережили пандемію, багато спільних поїздок, життя разом та розлуку війною",
+            "text1": "Осінню 2019 року ми обоє закрутилися ритмі танцю, який обернув наше життя на 180° і не відпускає нас до тепер",
+            "text2": "Нашій пара не багато років, але разом ми встигли пережили пандемію, спільних поїздок, ремонт, життя разом та розлуку війною",
             "text3": "Наш шлюб - це перший камінчик, в будівництві нашої сім'ї, нашої довгої подорожі дорогою в спільне життя. То ж запрошуємо вас долучитися до нас в цей день"
           },
           "venue": {
             "venue": "Місце проведення",
             "villa-name": "Вілла Джіані",
-            "text": "Запрошуємо вас розділити з нами день створення нашої родини, в чудовому місці, яке ми полюбили з першої секунди перебування там, неподалік мальовничого італійського озера Анноне",
+            "text": "Запрошуємо Вас, розділити з нами день створення нашої родини. В чудовому місці, яке ми полюбили з першої секунди, неподалік мальовничого італійського озера Анноне",
             "address": "Via Maggiore, 18, 23841",
             "address2": "Annone di Brianza LC, Italy"
           },
@@ -150,7 +273,7 @@ i18n
           },
           "accomodation": {
             "apartment1": "Вілла для сім'ї",
-            "apartment1-description": "Вілла Джіані, будівля 18 століття розташована в Анноне-ді-Бріанца в регіоні Ломбардія, посеред просторого саду з оливковими деревами. Перебуваючи на віллі можна уявити себе актором одного із старих італійських фільмів. Відстань від вілли Giani до міста Комо становить 35хвилин (24 км). До центру Мілану, аеропорту Мілан Бергамо можна доїхати за 55 хвилин (46км). До аеропорту Malpensa можна доїхати за 55хв(66км). До Лугано ( Швейцарія ) можна доїхати за 65хв (64km).  До Нюрнберга ( Німеччина ) можна доїхати за 6годин ( 600km )",
+            "apartment1-description": "Вілла Джіані, будівля 18 століття розташована в Анноне-ді-Бріанца в регіоні Ломбардія, посеред просторого саду з оливковими деревами. Перебуваючи на віллі можна уявити себе актором одного із старих італійських фільмів. Відстань від вілли Джіанні до міста Комо становить 35хвилин (24 км). До центру Мілану, аеропорту Мілан Бергамо можна доїхати за 55 хвилин (46км). До аеропорту Malpensa можна доїхати за 55хв(66км). До Лугано ( Швейцарія ) можна доїхати за 65хв (64km).  До Нюрнберга ( Німеччина ) можна доїхати за 6годин ( 600km )",
             "apartment2": "Апартаменти для друзів",
             "apartment2-description": "Вілла Меггі на озері Комо, Via Sant'Antonio 15, 23864 Мальта, Італія. Від Вілли Джіані потрібно 12 хвилинах дороги автомобілем (10 км). Сучасні апартаменти із своєю кухнею, виглядом на озеро і якщо букінг пише правду з басейном під відкритим небом"
           },
@@ -164,21 +287,66 @@ i18n
           "faq": {
             "faq": "Відповіді на часті запитання",
             "question1": "Що взяти з собою",
-            "answer1": "Тапочки",
-            "question2": "Четвер, понеділок",
-            "answer2": "В четвер ввечері прилітає частина родини, після чого вони зупиняться в Мілані на ночівлю. В п'ятницю зранку прогуляються центром Мілану і на обід будуть на віллі. В понеділок з раненького ранку більшість людей вилітає",
-            "question3": "Житло",
-            "answer3": "Для сім'ї ми орендуємо цілу віллу з обіду пятниці до ранку понеділка, для друзів апартаменти з пятниці по неділю неподалік нашої вілли (10хв їзди автомобілем)",
-            "question4": "",
-            "answer4": "",
+            "answer1": "Для вашої зручності рекомендуємо вам взяти з собою тапочки",
+            "question2": "Проживання",
+            "answer2": "Для сім'ї ми орендуємо цілу віллу з обіду пятниці до ранку понеділка, для друзів апартаменти з пятниці по неділю неподалік нашої вілли (10хв їзди автомобілем)",
+            "question3": "Четвер, Понеділок",
+            "answer3": "В четвер ввечері прилітає частина родини, після чого вони зупиняться в Мілані на ночівлю. В п'ятницю зранку прогуляються центром Мілану і на обід будуть на віллі. В понеділок з раненького ранку більшість людей вилітає",
+            "question4": "Весільний дрес код",
+            "answer4": "Ми будемо раді, якщо своїми нарядами ви підтримаєте світлову гамму. Основний колір: світло-брунатний з кремовим відтінком",
             "question5": "Подарунки",
-            "answer5": "Оскільки станом на зараз в нас досі немає житла, а також дорога додому буде далека, тому б ми дуже просили утриматися від габаритних подарунків та подарунків для дому",
-            "question6": "",
-            "answer6": "",
+            "answer5": "Оскільки станом на зараз в нас досі немає житла, а також дорога додому буде далека, тому ми б просили утриматися від габаритних подарунків. Ваші побажання в конвертах будуть найкращими подарунками, які зможуть допомогти виповнити наші мрії",
+            "question6": "Погода",
+            "answer6": "Очікується 22°C вдень та 15°C вночі, можливі короткочасні опади. Попередні роки температура варіювалась 17-23°C вдень та 14-20°C вночі",
           },
           "slider": {
             "heading": "Фото галерея"
-          }
+          },
+          "relax": {
+            "Breakfast": "Сніданок",
+            "Walking to a lake Annone": "Прогулянка до Озера Анноне",
+            "Barbeque party": "Барбекю"
+          },
+          "day1": {
+            "time1": "8.00 - 11.00",
+            "text1": "Прогулянка по Мілані",
+            "time2": "13.00",
+            "text2": "Заїзд на Віллу",
+            "time3": "14.00",
+            "text3": "Легкий перекус",
+            "time4": "18.00",
+            "text4": "Вечеря",
+            "time5": "10pm",
+            "text5": "Добраніч"
+          },
+          "day2": {
+            "time1": "9am 30m",
+            "text1": "Викуп нареченої, українські традиції",
+            "time2": "10am 30m",
+            "text2": "Виїзд з вілли до церкви",
+            "time3": "11am 30m",
+            "text3": "Шлюб в церкві",
+            "time4": "12am 20m",
+            "text4": "Прогулянка Комо",
+            "time5": "14am 20m",
+            "text5": "Виїзд з Комо до Вілли",
+            "time6": "15am 30m",
+            "text6": "Вітання молодят",
+            "time7": "16am 00m",
+            "text7": "Святкування"
+          },
+          "day3": {
+            "time1": "11am",
+            "text1": "Сніданок",
+            "time2": "12pm",
+            "text2": "Прогулянка до Озера Анноне",
+            "time3": "1pm",
+            "text3": "Барбекю"
+          },
+          "day4": {
+            "time1": "7am-11am",
+            "text1": "Виселення з Вілли",
+          },
         }
       }
     }

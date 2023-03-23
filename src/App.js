@@ -3,10 +3,13 @@ import { useState } from 'react';
 import Itinerary from './Components/Itinerary';
 import { useTranslation, Trans } from 'react-i18next';
 import FAQ from './Components/FAQ';
-import CarouselSlider from './Components/CarouselSlider';
+import CarouselSlider from './Components/PhotoGallery';
 
 import { Link, Route, Routes } from 'react-router-dom';
 import Navbar from './navbar';
+
+import { down } from "styled-breakpoints";
+import { useBreakpoint } from 'styled-breakpoints/react-styled';
 
 
 import logo from './Assets/logo.png';
@@ -20,6 +23,8 @@ import venueVector from './Assets/venueVector.svg';
 import churchVector from './Assets/churchVector.svg';
 import mainPhoto from './Assets/mainPhotoAnalog2.jpg';
 import churchInside from './Assets/churchInside.jpg';
+import BurgerMenu from './Components/BurgerMenu';
+import PhotoGallery from './Components/PhotoGallery';
 
 const lngs = {
   en: { nativeName: 'EN' },
@@ -29,10 +34,13 @@ const lngs = {
 
 function App() {
   const { t, i18n } = useTranslation();
+  const [isOpen, setIsOpen] = useState(false);
+  const isMobile = useBreakpoint(down("sm"));
 
   return (
     <>
-      <header className="header">
+      {!isMobile ?
+        <header className="header">
         <nav className="header__nav">
           <a className="header__home header__nav-name" href="#home">{t('navigation.home')}</a>
           <a className="header__story header__nav-name" href="#our-story">{t('navigation.our-story')}</a>
@@ -49,16 +57,28 @@ function App() {
           <a className="header__other header__nav-name" href="#photos">{t('navigation.photos')}</a>
           <div className="language">
             {Object.keys(lngs).map((lng) => (
-              <button key={lng} className="language__button" style={{ fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }} type="submit" onClick={() => i18n.changeLanguage(lng)}>
+              <button 
+                key={lng} 
+                className="language__button" 
+                style={{ fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal', background: i18n.resolvedLanguage === lng ? '#fff' : '#fbf9f7' }} type="submit" onClick={() => i18n.changeLanguage(lng)}>
                 {lngs[lng].nativeName}
               </button>
-            ))} 
+            ))}
           </div>
         </nav>
-      </header>
+      </header> 
+    :
+      <BurgerMenu 
+        setIsOpen={setIsOpen} 
+        isOpen={isOpen} 
+        lngs={lngs} 
+      ></BurgerMenu>
+    }
+
       <main>
         <article className="home" id="home">
-          <div className="home__join-us">{t('home.join')}</div>
+          <div className="home__join-us">{t('home.join1')}</div>
+          <div className="home__join-us">{t('home.join2')}</div>
           <div className="home__names">{t('home.name')}</div>
           <div className="home__details">{t('home.details')}</div>
           <img
@@ -162,8 +182,8 @@ function App() {
           alt="villa giani venue wedding flowers"
         />
         <FAQ />
-        {/* <article className="slider__heading" id="photos">{t('slider.heading')}</article>
-        <CarouselSlider /> */}
+        <article className="slider__heading" id="photos">{t('slider.heading')}</article>
+        <PhotoGallery />
       </main>
       <footer className="footer">
         <p className="footer__text footer__rights">

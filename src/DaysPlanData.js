@@ -1,3 +1,4 @@
+
 let DaysPlanData = [
   [
     {
@@ -25,7 +26,7 @@ let DaysPlanData = [
       text1: "Bride redemption, Ukrainian traditions",
       textUA1: "Викуп нареченої, українські традиції",
       time2: "10:30",
-      text2: "Departure from Villa Giani to Como",
+      text2: "Departure from Villa Giani to church",
       textUA2: "Виїзд з вілли до церкви",
       time3: "11:30",
       text3: "Church",
@@ -69,4 +70,3 @@ let DaysPlanData = [
   ]
 ];
 
-export default DaysPlanData;

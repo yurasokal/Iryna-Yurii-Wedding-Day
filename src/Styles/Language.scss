@@ -3,10 +3,19 @@
   top: 35px;
   right: 35px;
   display: flex;
+  border: none;
 
   &__button {
     margin: 0 5px;
     padding: 5px 10px;
     cursor: pointer;
+    background: #fbf9f7;
+    border: 1px solid #7e6e66;
+    border-radius: 10%;
+
+    @media screen and (max-width: 768px) {
+      background: #fff;
+      border: none;
+    }
   }
 }
