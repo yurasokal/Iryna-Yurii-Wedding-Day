@@ -9,7 +9,7 @@ i18n
   .use(initReactI18next)
   .init({
     debug: true,
-    fallbackLng: 'en',
+    fallbackLng: 'ua',
     interpolation: {
       escapeValue: false,
     },
@@ -248,7 +248,7 @@ i18n
             "photos": "Фото"
           },
           "home": {
-            "join1": "Шановні друзі та родино,",
+            "join1": "Шановні Друзі та Родино,",
             "join2": "Запрошуємо вас на наше весілля",
             "name": "Ірина & Юрій",
             "details": "13 Травня 2023р  -  Annone di Brianza, Італія"
