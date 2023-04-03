@@ -150,6 +150,13 @@ i18n
             "text2": "Unser Paar ist noch nicht viele Jahre alt, aber zusammen haben wir es geschafft, die Pandemie, gemeinsame Reisen, Reparaturen, das Zusammenleben und die Trennung durch den Krieg zu überstehen",
             "text3": "Unsere Ehe ist der erste Stein beim Aufbau unserer Familie, unsere lange Reise auf dem Weg zu einem gemeinsamen Leben. Wir laden Sie ein, an diesem Tag dabei zu sein"
           },
+          "venue": {
+            "venue": "Der Veranstaltungsort",
+            "villa-name": "Villa Giani",
+            "text": "Wir laden Sie ein, den Tag der Gründung unserer Familie mit uns zu teilen, an einem wunderbaren Ort, in den wir uns von der ersten Sekunde an verliebt haben, in der Nähe des malerischen Sees - Lago di Annone",
+            "address": "Via Maggiore, 18, 23841",
+            "address2": "Annone di Brianza LC, Italien"
+          },
           "church": {
             "church": "Ukrainische Griechisch-Katholische Kirche",
             "church-name": "Kirche San Donnino",
@@ -171,7 +178,7 @@ i18n
             "day4": "Montag, 15. Mai"
           },
           "faq": {
-            "faq": "Antworten auf häufig gestellte Fragen",
+            "faq": "FAQ",
             "question1": "Was mitnehmen",
             "answer1": "Für Ihre Bequemlichkeit empfehlen wir Ihnen, Hausschuhe mitzubringen. Auch bequeme Alltagskleidung für andere Tage als die Ehe",
             "question2": "Residenz",
@@ -189,44 +196,44 @@ i18n
             "heading": "Fotogallerie"
           },
           "day1": {
-            "time1": "8 - 11 Uhr",
-            "text1": "Прогулянка по Мілані",
+            "time1": "8-11 Uhr",
+            "text1": "Rundgang durch Mailand",
             "time2": "13 Urh",
-            "text2": "Заїзд на Віллу",
+            "text2": "Ankunft in der Villa",
             "time3": "14 Uhr",
-            "text3": "Легкий перекус",
+            "text3": "Ein leichter Imbiss",
             "time4": "18 Uhr",
-            "text4": "Вечеря",
+            "text4": "Abendessen",
             "time5": "22 Uhr",
-            "text5": "Добраніч"
+            "text5": "Gute Nacht"
           },
           "day2": {
             "time1": "9 Uhr 30 min",
-            "text1": "Викуп нареченої, українські традиції",
+            "text1": "Brauterlösung, ukrainische Traditionen",
             "time2": "10 Uhr 30 min",
             "text2": "Виїзд з вілли до церкви",
             "time3": "11 Uhr 30 min",
-            "text3": "Шлюб в церкві",
+            "text3": "Abfahrt von der Villa zur Kirche",
             "time4": "12 Uhr 20 min",
-            "text4": "Прогулянка Комо",
+            "text4": "Ein Spaziergang um Como",
             "time5": "14 Uhr 20 min",
-            "text5": "Виїзд з Комо до Вілли",
+            "text5": "Abfahrt von Como nach Villa",
             "time6": "15 Uhr 30 min",
-            "text6": "Вітання молодят",
+            "text6": "Herzlichen Glückwunsch an das Brautpaar",
             "time7": "16 Uhr",
-            "text7": "Святкування"
+            "text7": "Feier"
           },
           "day3": {
             "time1": "11 Uhr",
-            "text1": "Сніданок",
+            "text1": "Frühstück",
             "time2": "12 Uhr",
-            "text2": "Прогулянка до Озера Анноне",
+            "text2": "Spaziergang zum See Annone",
             "time3": "13 Uhr",
-            "text3": "Барбекю"
+            "text3": "Grill"
           },
           "day4": {
-            "time1": "7 - 11 Uhr",
-            "text1": "Виселення з Вілли",
+            "time1": "7-11 Uhr",
+            "text1": "Räumung aus der Villa",
           },
         }
       },
