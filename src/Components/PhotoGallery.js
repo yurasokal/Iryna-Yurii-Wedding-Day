@@ -3,7 +3,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import img1 from './../Assets/gallery/gallery1.jpeg';
 import img2 from './../Assets/gallery/gallery2.jpeg';
-import img22 from './../Assets/gallery/gallery3.jpeg';
+import img22 from './../Assets/gallery/gallery22.jpeg';
 import img4 from './../Assets/gallery/gallery4.jpeg';
 import img5 from './../Assets/gallery/gallery5.jpeg';
 import img7 from './../Assets/gallery/gallery7.jpeg';
@@ -12,7 +12,7 @@ import img9 from './../Assets/gallery/gallery9.jpeg';
 import img10 from './../Assets/gallery/gallery10.jpeg';
 import img11 from './../Assets/gallery/gallery11.jpeg';
 import img12 from './../Assets/gallery/gallery12.jpeg';
-import img21 from './../Assets/gallery/gallery13.jpeg';
+import img21 from './../Assets/gallery/gallery21.jpeg';
 import img14 from './../Assets/gallery/gallery14.jpeg';
 import img15 from './../Assets/gallery/gallery15.jpeg';
 import img16 from './../Assets/gallery/gallery16.jpeg';
