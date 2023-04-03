@@ -18,6 +18,19 @@
     background: #fbf9f7;
     border: 1px solid $text-primary;
     padding: 5px 30px;
+    cursor: pointer;
+
+    &--desktop {
+      @media screen and (max-width: 768px) {
+        display: none;
+      }
+    }
+
+    &--mobile {
+      @media screen and (min-width: 769px) {
+        display: none;
+      }
+    }
   }
 }
 
@@ -27,6 +40,10 @@
   align-items: center;
   justify-content: center;
   margin: 2rem;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 0;
+  }
 }
 
 .photo-gallery img {
@@ -52,7 +69,8 @@
     max-width: 50%;
     max-height: 80vh;
     object-fit: contain;
-    margin-right: 2rem;
+    // margin-right: 2rem;
+    margin: 0 2rem;
   }
 
   .photo-gallery-controls {

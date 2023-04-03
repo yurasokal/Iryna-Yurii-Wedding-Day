@@ -1,40 +1,26 @@
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import img1 from './../Assets/Carousel/IMG_01.jpg';
-import img2 from './../Assets/Carousel/IMG_02.jpg';
-import img3 from './../Assets/Carousel/IMG_03.JPG';
-import img4 from './../Assets/Carousel/IMG_04.jpg';
-import img5 from './../Assets/Carousel/IMG_05.jpg';
-import img6 from './../Assets/Carousel/IMG_06.jpg';
-import img8 from './../Assets/Carousel/IMG_08.jpg';
-import img9 from './../Assets/Carousel/IMG_09.JPG';
-import img11 from './../Assets/Carousel/IMG_11.JPG';
-import img12 from './../Assets/Carousel/IMG_12.JPG';
-import img13 from './../Assets/Carousel/IMG_13.JPG';
-import img14 from './../Assets/Carousel/IMG_14.JPG';
-import img15 from './../Assets/Carousel/IMG_15.jpg';
-import img16 from './../Assets/Carousel/IMG_16.jpg';
-import img17 from './../Assets/Carousel/IMG_17.jpg';
-import img18 from './../Assets/Carousel/IMG_18.jpg';
-import img19 from './../Assets/Carousel/IMG_19.jpg';
-import img20 from './../Assets/Carousel/IMG_20.jpg';
-import img21 from './../Assets/Carousel/IMG_21.JPG';
-import img22 from './../Assets/Carousel/IMG_22.jpg';
-import img23 from './../Assets/Carousel/IMG_23.JPG';
-import img10 from './../Assets/Carousel/IMG_10.JPG';
-import img24 from './../Assets/Carousel/IMG_24.jpg';
-import img25 from './../Assets/Carousel/IMG_25.JPG';
-import img26 from './../Assets/Carousel/IMG_26.JPG';
-import img27 from './../Assets/Carousel/IMG_27.jpg';
-import img28 from './../Assets/Carousel/IMG_28.JPG';
-import img29 from './../Assets/Carousel/IMG_29.JPG';
-import img30 from './../Assets/Carousel/IMG_30.jpg';
-import img31 from './../Assets/Carousel/IMG_31.JPG';
-import img32 from './../Assets/Carousel/IMG_32.jpg';
-import img33 from './../Assets/Carousel/IMG_33.jpg';
-import img34 from './../Assets/Carousel/IMG_34.jpg';
-import img35 from './../Assets/Carousel/IMG_35.jpg';
+import img1 from './../Assets/gallery/gallery1.jpeg';
+import img2 from './../Assets/gallery/gallery2.jpeg';
+import img22 from './../Assets/gallery/gallery3.jpeg';
+import img4 from './../Assets/gallery/gallery4.jpeg';
+import img5 from './../Assets/gallery/gallery5.jpeg';
+import img7 from './../Assets/gallery/gallery7.jpeg';
+import img8 from './../Assets/gallery/gallery8.jpeg';
+import img9 from './../Assets/gallery/gallery9.jpeg';
+import img10 from './../Assets/gallery/gallery10.jpeg';
+import img11 from './../Assets/gallery/gallery11.jpeg';
+import img12 from './../Assets/gallery/gallery12.jpeg';
+import img21 from './../Assets/gallery/gallery13.jpeg';
+import img14 from './../Assets/gallery/gallery14.jpeg';
+import img15 from './../Assets/gallery/gallery15.jpeg';
+import img16 from './../Assets/gallery/gallery16.jpeg';
+import img17 from './../Assets/gallery/gallery17.jpeg';
+import img18 from './../Assets/gallery/gallery18.jpeg';
+import img19 from './../Assets/gallery/gallery19.jpeg';
+import img20 from './../Assets/gallery/gallery20.jpeg';
+
 import React, { useState } from 'react';
 
 const PhotoGallery = () => {
@@ -42,9 +28,23 @@ const PhotoGallery = () => {
   const [photos, setPhotos] = useState([
     img1,
     img2,
-    img3,
-    img3,
-    img4
+    img4,
+    img5,
+    img7,
+    img8,
+    img9,
+    img10,
+    img11,
+    img12,
+    img14,
+    img15,
+    img16,
+    img17,
+    img18,
+    img19,
+    img20,
+    img21,
+    img22
   ]);
 
   const [currentPhotoIndex, setCurrentPhotoIndex] = useState(0);
@@ -61,10 +61,13 @@ const PhotoGallery = () => {
 
   return (
     <div className="photo-gallery">
-      <img src={photos[currentPhotoIndex]} alt="Wedding photo" />
+      <div className="photo-gallery-controls">
+        <button onClick={handlePrevPhoto} className="slider__button slider__button--desktop">Previous</button>
+      </div>
+      <img src={photos[currentPhotoIndex]} alt="Wedding photos" />
 
       <div className="photo-gallery-controls">
-        <button onClick={handlePrevPhoto} className="slider__button">Previous</button>
+        <button onClick={handlePrevPhoto} className="slider__button slider__button--mobile">Previous</button>
         <button onClick={handleNextPhoto} className="slider__button">Next</button>
       </div>
     </div>

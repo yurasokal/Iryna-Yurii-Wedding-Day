@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import "./../Styles/BurgerMenu.scss";
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
@@ -12,16 +12,20 @@ function BurgerMenu({setIsOpen, isOpen, lngs}) {
 
   const showSidebar = () => setSidebar(!sidebar);
 
-  const burgerMenu = document.querySelector('.burger__nav--active');
-  // const burgerMenuButton = document.querySelector('.burger-menu-button');
+  const menuRef = useRef(null);
 
-  document.addEventListener('click', (event) => {
-    // Check if the click event originated from the burger menu or its child elements
-    if (!sidebar.contains(event.target) && event.target !== sidebar) {
-      // Close the burger menu
-      sidebar.classList.remove(false);
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (menuRef.current && !menuRef.current.contains(event.target)) {
+        setIsOpen(false);
+      }
     }
-  });
+
+    document.addEventListener('click', handleClickOutside);
+    return () => {
+      document.removeEventListener('click', handleClickOutside);
+    };
+  }, [menuRef]);
 
   let daysPlanData = [
     [
@@ -121,4 +125,3 @@ function BurgerMenu({setIsOpen, isOpen, lngs}) {
 }
 
 export default BurgerMenu;
- 

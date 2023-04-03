@@ -33,7 +33,7 @@ i18n
           "our-story": {
             "heading": "Our Story",
             "text1": "In October 2019, we were both entangled in the rhythm of the bachata dance and have not let go until now",
-            "text2": "We are not together for a really long time, but together we survived the pandemic, many trips together, life together and separation by war. Therefore, we believe that we are ready for this such a serious step",
+            "text2": "We are not together for a really long time, but together we survived the pandemic, many trips together,repair of apartment, life together and separation by war. Therefore, we believe that we are ready for this such a serious step",
             "text3": "Our marriage is the first stone in the construction of our family, our long journey on the road to a joint life. Therefore, we gladly invite you to join us on this day"
           },
           "venue": {
@@ -53,8 +53,8 @@ i18n
           "accomodation": {
             "apartment1": "Villa for Family",
             "apartment1-description": "The 18th-century Villa Giani is located in Annone di Brianza in the Lombardy region, amidst a spacious garden with olive trees. While staying at the villa, you can imagine yourself as an actor from an old Italian film. The distance from Villa Giani to the city of Como is 35 minutes (24 km). The center of Milan, Milan Bergamo Airport can be reached in 55 minutes (46 km). Malpensa airport can be reached in 55 minutes (66 km). Lugano (Switzerland) can be reached in 65 minutes (64 km). Nuremberg (Germany) can be reached in 6 hours (600 km)",
-            "apartment2": "Apartament for Friends",
-            "apartment2-description": "Villa Maggie on Lake Como, Via Sant'Antonio 15, 23864 Malgrate, Italy. To Villa Giani 12min by car (10km). Modern apartments with their own kitchen, a view of the lake and, if the booking is correct, with an open-air swimming pool"
+            "apartment2": "Apartaments for Friends",
+            "apartment2-description": "'J&C HOUSE - LAKE BOSISIO' Address: 8 Via Innocente Bonfanti Piano terra Appartamento H, 23842 Bosisio, Italy. To Villa Giani 8min by car (5km)."
           },
           "itinerary": {
             "heading": "Itinerary",
@@ -66,17 +66,17 @@ i18n
           "faq": {
             "faq": "FAQ",
             "question1": "What to bring with you?",
-            "answer1": "For your convenience, we recommend that you bring slippers with you",
+            "answer1": "For your convenience, we recommend that you bring slippers with you. Also comfortable, everyday clothes for days other than the wedding",
             "question2": "Accommodation",
             "answer2": "For a family we rent a whole villa from Friday afternoon to Monday morning, for friends an apartment from Friday to Sunday near our villa (10 minutes by car)",
             "question3": "Thursday, Monday",
-            "answer3": "В четвер ввечері прилітає частина родини, після чого вони зупиняться в Мілані на ночівлю. В п'ятницю зранку прогуляються центром Мілану і на обід будуть на віллі. В понеділок з раненького ранку більшість людей вилітає",
+            "answer3": "On Thursday evening, part of the family will arrive, after which they will stop in Milan for the night. On Friday morning, they will walk through the center of Milan and have lunch at the villa. On Monday, most people fly out early in the morning",
             "question4": "Wedding dress code",
-            "answer4": "We will be glad if you support the light range with your outfits. Main color: light brown with a cream shade",
+            "answer4": "Special attention should be paid to shoes, they should be comfortable, without heels, since the dances will be on the grass. We will be happy if your outfit matches the color scheme, here are some of our favorite colors:",
             "question5": "Gifts",
-            "answer5": "Оскільки станом на зараз в нас досі немає житла, а також дорога додому буде далека, тому ми б просили утриматися від габаритних подарунків. Ваші побажання в конвертах будуть найкращими подарунками, які зможуть допомогти виповнити наші мрії",
+            "answer5": "Please refrain from oversized gifts. Your wishes in envelopes will be the best gifts that can help comes true our dreams",
             "question6": "Weather",
-            "answer6": "It is expected to be 22°C during the day and 15°C at night, short-term rains are possible. In previous years, the temperature varied between 17-23°C during the day and 14-20°C at night",
+            "answer6": "It is expected to be 22°C during the day and 15°C at night, short-term rains are possible. In previous years, the temperature varied between 17-23°C during the day and 14-20°C at the night",
           },
           "slider": {
             "heading": "Photo gallery"
@@ -153,7 +153,7 @@ i18n
           "church": {
             "church": "Ukrainische Griechisch-Katholische Kirche",
             "church-name": "Kirche San Donnino",
-            "text": "Die Trauung wird von Pater Mykola aus Lemberg durchgeführt, der den Zweig der griechisch-katholischen Kirche in Komo leitet",
+            "text": "Die Trauung wird von Pater Mykola aus Lviv durchgeführt, der den Zweig der griechisch-katholischen Kirche in Komo leitet",
             "address": "Via Armando Diaz, 125",
             "address2": "Como, Italien"
           },
@@ -161,76 +161,71 @@ i18n
             "apartment1": "Villa für eine Familie",
             "apartment1-description": "Die Villa Giani, ein Gebäude aus dem 18. Jahrhundert, befindet sich in Annone di Brianza in der Lombardei, inmitten eines weitläufigen Gartens mit Olivenbäumen. Während Ihres Aufenthalts in der Villa können Sie sich selbst als Schauspieler in einem der alten italienischen Filme vorstellen. Die Entfernung von der Villa Gianni zur Stadt Como beträgt 35 Minuten (24 km). Das Zentrum von Mailand, der Flughafen Mailand Bergamo, ist in 55 Minuten (46 km) zu erreichen. Der Flughafen Malpensa ist in 55 Minuten (66 km) zu erreichen. Lugano (Schweiz) ist in 65 Minuten (64 km) erreichbar. Nürnberg (Deutschland) ist in 6 Stunden (600 km) zu erreichen)",
             "apartment2": "Wohnung für Freunde",
-            "apartment2-description": "Villa Maggie am Comer See, Via Sant'Antonio 15, 23864 Malta, Italien. Es dauert 12 Minuten mit dem Auto (10 km) von der Villa Giani. Moderne Appartements mit eigener Küche, Seeblick und bei korrekter Buchung mit Freibad"
+            "apartment2-description": "J&C HOUSE - LAKE BOSISIO' Address: 8 Via Innocente Bonfanti Piano terra Appartamento H, 23842 Bosisio, Italy. Zur Villa Giani 8min mit dem Auto (5km)."
           },
           "itinerary": {
             "heading": "Route",
             "day1": "Freitag, 12. Mai",
             "day2": "Samstag, 13. Mai",
             "day3": "Sonntag, 14. Mai",
-            "day4": "Понеділок, 15 травня"
+            "day4": "Montag, 15. Mai"
           },
           "faq": {
-            "faq": "Відповіді на часті запитання",
-            "question1": "Що взяти з собою",
-            "answer1": "Для вашої зручності рекомендуємо вам взяти з собою тапочки",
-            "question2": "Проживання",
-            "answer2": "Для сім'ї ми орендуємо цілу віллу з обіду пятниці до ранку понеділка, для друзів апартаменти з пятниці по неділю неподалік нашої вілли (10хв їзди автомобілем)",
-            "question3": "Четвер, Понеділок",
-            "answer3": "В четвер ввечері прилітає частина родини, після чого вони зупиняться в Мілані на ночівлю. В п'ятницю зранку прогуляються центром Мілану і на обід будуть на віллі. В понеділок з раненького ранку більшість людей вилітає",
-            "question4": "Весільний дрес код",
-            "answer4": "Ми будемо раді, якщо своїми нарядами ви підтримаєте світлову гамму. Основний колір: світло-брунатний з кремовим відтінком",
-            "question5": "Подарунки",
-            "answer5": "Оскільки станом на зараз в нас досі немає житла, а також дорога додому буде далека, тому ми б просили утриматися від габаритних подарунків. Ваші побажання в конвертах будуть найкращими подарунками, які зможуть допомогти виповнити наші мрії",
-            "question6": "Погода",
-            "answer6": "Очікується 22°C вдень та 15°C вночі, можливі короткочасні опади. Попередні роки температура варіювалась 17-23°C вдень та 14-20°C вночі",
+            "faq": "Antworten auf häufig gestellte Fragen",
+            "question1": "Was mitnehmen",
+            "answer1": "Für Ihre Bequemlichkeit empfehlen wir Ihnen, Hausschuhe mitzubringen. Auch bequeme Alltagskleidung für andere Tage als die Ehe",
+            "question2": "Residenz",
+            "answer2": "Für die Familie vermieten wir die ganze Villa von Freitagnachmittag bis Montagmorgen, für Freunde die Apartments von Freitag bis Sonntag in der Nähe unserer Villa (10 Autominuten)",
+            "question3": "Donnerstag, Montag",
+            "answer3": "Am Donnerstagabend wird ein Teil der Familie ankommen, danach werden sie für die Nacht in Mailand bleiben. Am Freitagmorgen werden sie durch das Zentrum von Mailand spazieren und in der Villa zu Mittag essen. Am Montag fliegen die meisten Menschen frühmorgens los",
+            "question4": "Kleiderordnung für die Hochzeit",
+            "answer4": "Wir freuen uns, wenn Sie mit Ihren Outfits das Lichtsortiment unterstützen. Hauptfarbe: hellbraun mit cremefarbenem Farbton",
+            "question5": "Geschenke",
+            "answer5": "Bitte verzichten Sie auf übergroße Geschenke. Ihre Wünsche in Umschlägen werden die besten Geschenke sein, die helfen können, unsere Träume zu erfüllen",
+            "question6": "Wetter",
+            "answer6": "Es werden tagsüber 22°C und nachts 15°C erwartet, kurzzeitige Niederschläge sind möglich. In den vergangenen Jahren schwankte die Temperatur tagsüber zwischen 17-23°C und nachts zwischen 14-20°C",
           },
           "slider": {
-            "heading": "Фото галерея"
-          },
-          "relax": {
-            "Breakfast": "Сніданок",
-            "Walking to a lake Annone": "Прогулянка до Озера Анноне",
-            "Barbeque party": "Барбекю"
+            "heading": "Fotogallerie"
           },
           "day1": {
-            "time1": "8.00 - 11.00",
+            "time1": "8 - 11 Uhr",
             "text1": "Прогулянка по Мілані",
-            "time2": "13.00",
+            "time2": "13 Urh",
             "text2": "Заїзд на Віллу",
-            "time3": "14.00",
+            "time3": "14 Uhr",
             "text3": "Легкий перекус",
-            "time4": "18.00",
+            "time4": "18 Uhr",
             "text4": "Вечеря",
-            "time5": "10pm",
+            "time5": "22 Uhr",
             "text5": "Добраніч"
           },
           "day2": {
-            "time1": "9am 30m",
+            "time1": "9 Uhr 30 min",
             "text1": "Викуп нареченої, українські традиції",
-            "time2": "10am 30m",
+            "time2": "10 Uhr 30 min",
             "text2": "Виїзд з вілли до церкви",
-            "time3": "11am 30m",
+            "time3": "11 Uhr 30 min",
             "text3": "Шлюб в церкві",
-            "time4": "12am 20m",
+            "time4": "12 Uhr 20 min",
             "text4": "Прогулянка Комо",
-            "time5": "14am 20m",
+            "time5": "14 Uhr 20 min",
             "text5": "Виїзд з Комо до Вілли",
-            "time6": "15am 30m",
+            "time6": "15 Uhr 30 min",
             "text6": "Вітання молодят",
-            "time7": "16am 00m",
+            "time7": "16 Uhr",
             "text7": "Святкування"
           },
           "day3": {
-            "time1": "11am",
+            "time1": "11 Uhr",
             "text1": "Сніданок",
-            "time2": "12pm",
+            "time2": "12 Uhr",
             "text2": "Прогулянка до Озера Анноне",
-            "time3": "1pm",
+            "time3": "13 Uhr",
             "text3": "Барбекю"
           },
           "day4": {
-            "time1": "7am-11am",
+            "time1": "7 - 11 Uhr",
             "text1": "Виселення з Вілли",
           },
         }
@@ -275,7 +270,7 @@ i18n
             "apartment1": "Вілла для сім'ї",
             "apartment1-description": "Вілла Джіані, будівля 18 століття розташована в Анноне-ді-Бріанца в регіоні Ломбардія, посеред просторого саду з оливковими деревами. Перебуваючи на віллі можна уявити себе актором одного із старих італійських фільмів. Відстань від вілли Джіанні до міста Комо становить 35хвилин (24 км). До центру Мілану, аеропорту Мілан Бергамо можна доїхати за 55 хвилин (46км). До аеропорту Malpensa можна доїхати за 55хв(66км). До Лугано ( Швейцарія ) можна доїхати за 65хв (64km).  До Нюрнберга ( Німеччина ) можна доїхати за 6годин ( 600km )",
             "apartment2": "Апартаменти для друзів",
-            "apartment2-description": "Вілла Меггі на озері Комо, Via Sant'Antonio 15, 23864 Мальта, Італія. Від Вілли Джіані потрібно 12 хвилинах дороги автомобілем (10 км). Сучасні апартаменти із своєю кухнею, виглядом на озеро і якщо букінг пише правду з басейном під відкритим небом"
+            "apartment2-description": "'J&C HOUSE - озеро BOSISIO' 8 Via Innocente Bonfanti Piano terra Appartamento H, 23842 Bosisio Італія. Від Вілли Джіані потрібно 8 хвилин дорогою автомобілем (5 км)."
           },
           "itinerary": {
             "heading": "Маршрут",
@@ -287,25 +282,20 @@ i18n
           "faq": {
             "faq": "Відповіді на часті запитання",
             "question1": "Що взяти з собою",
-            "answer1": "Для вашої зручності рекомендуємо вам взяти з собою тапочки",
+            "answer1": "Для вашої зручності рекомендуємо вам взяти з собою тапочки. Також зручний, повсякденний одяг для інших днів від шлюбу",
             "question2": "Проживання",
             "answer2": "Для сім'ї ми орендуємо цілу віллу з обіду пятниці до ранку понеділка, для друзів апартаменти з пятниці по неділю неподалік нашої вілли (10хв їзди автомобілем)",
             "question3": "Четвер, Понеділок",
             "answer3": "В четвер ввечері прилітає частина родини, після чого вони зупиняться в Мілані на ночівлю. В п'ятницю зранку прогуляються центром Мілану і на обід будуть на віллі. В понеділок з раненького ранку більшість людей вилітає",
             "question4": "Весільний дрес код",
-            "answer4": "Ми будемо раді, якщо своїми нарядами ви підтримаєте світлову гамму. Основний колір: світло-брунатний з кремовим відтінком",
+            "answer4": "Ми будемо раді, якщо своїми нарядами ви підтримаєте світлову гамму. Особливу увагу портібно звернути на взуття, воно має бути зручним, без каблуків, оскільки танці будуть на траві",
             "question5": "Подарунки",
-            "answer5": "Оскільки станом на зараз в нас досі немає житла, а також дорога додому буде далека, тому ми б просили утриматися від габаритних подарунків. Ваші побажання в конвертах будуть найкращими подарунками, які зможуть допомогти виповнити наші мрії",
+            "answer5": "Просимо утриматися від габаритних подарунків. Ваші побажання в конвертах будуть найкращими подарунками, які зможуть допомогти виповнити наші мрії",
             "question6": "Погода",
             "answer6": "Очікується 22°C вдень та 15°C вночі, можливі короткочасні опади. Попередні роки температура варіювалась 17-23°C вдень та 14-20°C вночі",
           },
           "slider": {
             "heading": "Фото галерея"
-          },
-          "relax": {
-            "Breakfast": "Сніданок",
-            "Walking to a lake Annone": "Прогулянка до Озера Анноне",
-            "Barbeque party": "Барбекю"
           },
           "day1": {
             "time1": "8.00 - 11.00",
@@ -320,31 +310,31 @@ i18n
             "text5": "Добраніч"
           },
           "day2": {
-            "time1": "9am 30m",
+            "time1": "09.30",
             "text1": "Викуп нареченої, українські традиції",
-            "time2": "10am 30m",
+            "time2": "10.30",
             "text2": "Виїзд з вілли до церкви",
-            "time3": "11am 30m",
+            "time3": "11.30",
             "text3": "Шлюб в церкві",
-            "time4": "12am 20m",
+            "time4": "12.20",
             "text4": "Прогулянка Комо",
-            "time5": "14am 20m",
+            "time5": "14.20",
             "text5": "Виїзд з Комо до Вілли",
-            "time6": "15am 30m",
+            "time6": "15.20",
             "text6": "Вітання молодят",
-            "time7": "16am 00m",
+            "time7": "16.20",
             "text7": "Святкування"
           },
           "day3": {
-            "time1": "11am",
+            "time1": "11.00",
             "text1": "Сніданок",
-            "time2": "12pm",
+            "time2": "12.00",
             "text2": "Прогулянка до Озера Анноне",
-            "time3": "1pm",
+            "time3": "13.00",
             "text3": "Барбекю"
           },
           "day4": {
-            "time1": "7am-11am",
+            "time1": "07.00-11.00",
             "text1": "Виселення з Вілли",
           },
         }

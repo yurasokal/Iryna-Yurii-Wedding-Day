@@ -9,6 +9,8 @@ const text = `
   it can be found as a welcome guest in many households across the world.
 `;
 
+const colors = ['#f4eeed', '#efd9d1', '#ddb7ab', '#999b84', '#a0b2c2'];
+
 function FAQ() {
   const { t, i18n } = useTranslation();
 
@@ -19,32 +21,43 @@ function FAQ() {
         <Space className="faq__wrapper" direction="vertical">
             <Collapse collapsible="header" defaultActiveKey={['2']}>
               <Panel header={t("faq.question1")} key="1">
-                <p>{t("faq.answer1")}</p>
+                <p className="faq__answer">{t("faq.answer1")}</p>
               </Panel>
             </Collapse>
             <Collapse collapsible="header" defaultActiveKey={['2']}>
               <Panel header={t("faq.question2")} key="7">
-                <p>{t("faq.answer2")}</p>
+                <p className="faq__answer">{t("faq.answer2")}</p>
               </Panel>
             </Collapse>
             <Collapse collapsible="header" defaultActiveKey={['2']}>
               <Panel header={t("faq.question3")} key="3">
-                <p>{t("faq.answer3")}</p>
+                <p className="faq__answer">{t("faq.answer3")}</p>
               </Panel>
             </Collapse>
             <Collapse collapsible="header" defaultActiveKey={['2']}>
               <Panel header={t("faq.question4")} key="4">
-                <p>{t("faq.answer4")}</p>
+                <p className="faq__answer">{t("faq.answer4")}</p>
+                <div className="faq__wedding-container">
+                  <div className="faq__color-palette">
+                    {colors.map((color, index) => (
+                      <div
+                        key={index}
+                        className="faq__color-box"
+                        style={{ backgroundColor: color }}
+                      ></div>
+                    ))}
+                  </div>
+                </div>
               </Panel>
             </Collapse>
             <Collapse collapsible="header" defaultActiveKey={['2']}>
               <Panel header={t("faq.question5")} key="5">
-                <p>{t("faq.answer5")}</p>
+                <p className="faq__answer">{t("faq.answer5")}</p>
               </Panel>
             </Collapse>
             <Collapse collapsible="header" defaultActiveKey={['2']}>
               <Panel header={t("faq.question6")} key="6">
-                <p>{t("faq.answer6")}</p>
+                <p className="faq__answer">{t("faq.answer6")}</p>
               </Panel>
             </Collapse>
           {/* <Collapse collapsible="icon" defaultActiveKey={['1']}>
