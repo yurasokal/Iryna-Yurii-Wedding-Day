@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Iryna-Yurii-Wedding-Day/static/css/main.bf7f1e5b.css",
-    "main.js": "/Iryna-Yurii-Wedding-Day/static/js/main.f927fd59.js",
+    "main.css": "/Iryna-Yurii-Wedding-Day/static/css/main.181d6a89.css",
+    "main.js": "/Iryna-Yurii-Wedding-Day/static/js/main.2455ae18.js",
     "static/media/mainPhotoAnalog2.jpg": "/Iryna-Yurii-Wedding-Day/static/media/mainPhotoAnalog2.4208f53b07000b3c3d8b.jpg",
     "static/media/gallery1.jpeg": "/Iryna-Yurii-Wedding-Day/static/media/gallery1.4b7c638b9c7414890b61.jpeg",
     "static/media/venue1.png": "/Iryna-Yurii-Wedding-Day/static/media/venue1.4ffa38ee511818863025.png",
@@ -32,11 +32,11 @@
     "static/media/logo.png": "/Iryna-Yurii-Wedding-Day/static/media/logo.4244a84798da903ee62c.png",
     "index.html": "/Iryna-Yurii-Wedding-Day/index.html",
     "static/media/getFetch.cjs": "/Iryna-Yurii-Wedding-Day/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.bf7f1e5b.css.map": "/Iryna-Yurii-Wedding-Day/static/css/main.bf7f1e5b.css.map",
-    "main.f927fd59.js.map": "/Iryna-Yurii-Wedding-Day/static/js/main.f927fd59.js.map"
+    "main.181d6a89.css.map": "/Iryna-Yurii-Wedding-Day/static/css/main.181d6a89.css.map",
+    "main.2455ae18.js.map": "/Iryna-Yurii-Wedding-Day/static/js/main.2455ae18.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf7f1e5b.css",
-    "static/js/main.f927fd59.js"
+    "static/css/main.181d6a89.css",
+    "static/js/main.2455ae18.js"
   ]
 }
