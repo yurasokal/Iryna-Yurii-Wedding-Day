@@ -21,6 +21,13 @@
     }
   }
 
+  &__join-us {
+    @media screen and (max-width: 768px) {
+      padding-top: 8px;
+    }
+  }
+
+
   &__names {
     font-size: 101px;
     margin: -30px 0 -20px;

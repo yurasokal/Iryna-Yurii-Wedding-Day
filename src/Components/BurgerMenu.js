@@ -2,12 +2,12 @@ import React, { useEffect, useRef, useState } from 'react';
 import "./../Styles/BurgerMenu.scss";
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
-import { useTranslation, Trans } from 'react-i18next';
-import { SidebarData } from './../SidebarData';
+import { useTranslation } from 'react-i18next';
+import { SidebarData } from './SidebarData';
 import { IconContext } from 'react-icons';
 
 function BurgerMenu({setIsOpen, isOpen, lngs}) {
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
   const [sidebar, setSidebar] = useState(false);
 
   const showSidebar = () => setSidebar(!sidebar);
@@ -25,62 +25,8 @@ function BurgerMenu({setIsOpen, isOpen, lngs}) {
     return () => {
       document.removeEventListener('click', handleClickOutside);
     };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [menuRef]);
-
-  let daysPlanData = [
-    [
-      {
-        time1: t("day1.time1"),
-        text1: t("day1.text1"),
-        time2: t("day1.time2"),
-        text2: t("day1.text2"),
-        time3: t("day1.time3"),
-        text3: t("day1.text3"),
-        time4: t("day1.time4"),
-        text4: t("day1.text4"),
-        time5: t("day1.time5"),
-        text5: t("day1.text5"),
-        id: "f0001"
-      }
-    ],
-    [
-      {
-        time1: t("day2.time1"),
-        text1: t("day2.text1"),
-        time2: t("day2.time2"),
-        text2: t("day2.text2"),
-        time3: t("day2.time3"),
-        text3: t("day2.text3"),
-        time4: t("day2.time4"),
-        text4: t("day2.text4"),
-        time5: t("day2.time5"),
-        text5: t("day2.text5"),
-        time6: t("day2.time6"),
-        text6: t("day2.text6"),
-        time7: t("day2.time7"),
-        text7: t("day2.text7"),
-        id: "f0002"
-      }
-    ],
-    [
-      {
-        time1: t("day3.time1"),
-        text1: t("day3.text1"),
-        time2: t("day3.time2"),
-        text2: t("day3.text2"),
-        time3: t("day3.time3"),
-        text3: t("day3.text3"),
-        id: "f0003"
-      }
-    ],
-    [
-      {
-        time1: t("day4.time1"),
-        text1: t("day4.text1"),
-        id: "a0004"
-      }
-    ]
-  ]; 
 
   return (
     <div className="burger">

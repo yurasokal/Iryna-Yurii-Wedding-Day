@@ -65,7 +65,7 @@ i18n
           },
           "faq": {
             "faq": "FAQ",
-            "question1": "What to bring with you?",
+            "question1": "What to bring with you",
             "answer1": "For your convenience, we recommend that you bring slippers with you. Also comfortable, everyday clothes for days other than the wedding",
             "question2": "Accommodation",
             "answer2": "For a family we rent a whole villa from Friday afternoon to Monday morning, for friends an apartment from Friday to Sunday near our villa (10 minutes by car)",
@@ -249,7 +249,7 @@ i18n
           },
           "home": {
             "join1": "Шановні друзі та родино,",
-            "join2": "Запрошуємо вас на наше весілля !",
+            "join2": "Запрошуємо вас на наше весілля",
             "name": "Ірина & Юрій",
             "details": "13 Травня 2023р  -  Annone di Brianza, Італія"
           },

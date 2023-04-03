@@ -1,18 +1,12 @@
 import { Collapse, Space } from 'antd';
-import { useTranslation, Trans } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 
 const { Panel } = Collapse;
-
-const text = `
-  A dog is a type of domesticated animal.
-  Known for its loyalty and faithfulness,
-  it can be found as a welcome guest in many households across the world.
-`;
 
 const colors = ['#f4eeed', '#efd9d1', '#ddb7ab', '#999b84', '#a0b2c2'];
 
 function FAQ() {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <div className="faq block faqBlock" id="faq">
@@ -60,16 +54,6 @@ function FAQ() {
                 <p className="faq__answer">{t("faq.answer6")}</p>
               </Panel>
             </Collapse>
-          {/* <Collapse collapsible="icon" defaultActiveKey={['1']}>
-            <Panel header="This panel can only be collapsed by clicking icon" key="1">
-              <p>{text}</p>
-            </Panel>
-          </Collapse>
-          <Collapse collapsible="disabled">
-            <Panel header="This panel can't be collapsed" key="1">
-              <p>{text}</p>
-            </Panel>
-          </Collapse> */}
         </Space>
       </div>
     </div>

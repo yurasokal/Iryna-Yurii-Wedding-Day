@@ -70,7 +70,7 @@
     cursor: pointer;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 768px) {
       width: 40px;
       height: 40px;
     }
@@ -86,7 +86,7 @@
     }
 
     &:hover {
-      transform: scale(1.1);
+      transform: scale(1.15);
     }
   }  
 }

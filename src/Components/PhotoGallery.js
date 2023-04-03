@@ -1,4 +1,3 @@
-import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import img1 from './../Assets/gallery/gallery1.jpeg';
@@ -24,8 +23,7 @@ import img20 from './../Assets/gallery/gallery20.jpeg';
 import React, { useState } from 'react';
 
 const PhotoGallery = () => {
-  // Array of photos for the gallery
-  const [photos, setPhotos] = useState([
+  const [photos] = useState([
     img1,
     img2,
     img4,
@@ -49,12 +47,10 @@ const PhotoGallery = () => {
 
   const [currentPhotoIndex, setCurrentPhotoIndex] = useState(0);
 
-  // Handle previous photo button click
   const handlePrevPhoto = () => {
     setCurrentPhotoIndex((currentPhotoIndex - 1 + photos.length) % photos.length);
   };
 
-  // Handle next photo button click
   const handleNextPhoto = () => {
     setCurrentPhotoIndex((currentPhotoIndex + 1) % photos.length);
   };

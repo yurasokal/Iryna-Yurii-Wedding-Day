@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 
 function Text() {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   const myArray = [
     {

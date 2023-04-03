@@ -1,12 +1,11 @@
 import { useState } from 'react';
 import Day from './Day';
 import DaysPlanData from '../DaysPlanData';
-import { useTranslation, Trans } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 
 const Itinerary = () => {
   const [activeDay, setActiveDay] = useState("FirstDay");
-  const [activeHoverDay, setActiveHoverDay] = useState("");
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <div className="itinerary__wrapper">

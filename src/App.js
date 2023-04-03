@@ -1,20 +1,14 @@
 import './App.scss';
 import { useState } from 'react';
 import Itinerary from './Components/Itinerary';
-import { useTranslation, Trans } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 import FAQ from './Components/FAQ';
-import CarouselSlider from './Components/PhotoGallery';
-
-import { Link, Route, Routes } from 'react-router-dom';
-import Navbar from './navbar';
 
 import { down } from "styled-breakpoints";
 import { useBreakpoint } from 'styled-breakpoints/react-styled';
 
-
 import logo from './Assets/logo.png';
-// import rings from './Assets/rings.png';
-// import walking2 from './Assets/walking2.jpg';
+
 import ourStory from './Assets/walking3.jpg';
 import venue1 from './Assets/venue1.png';
 import venue2 from './Assets/venue2.png';
@@ -35,7 +29,7 @@ const lngs = {
 function App() {
   const { t, i18n } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
-  const isMobile = useBreakpoint(down("sm"));
+  const isMobile = useBreakpoint(down("md"));
 
   return (
     <>
@@ -198,39 +192,3 @@ function App() {
 }
 
 export default App;
-
-{/* <>
-<nav>
-  <ul>
-    <li>
-      <Link to="/">Home</Link>
-    </li>
-    <li>
-      <Link to="/our-story">Our story</Link>
-    </li>
-    <li>
-      <Link to="/venue">Venue</Link>
-    </li>
-  </ul>
-</nav>
-<Routes>
-  <Route path="/" element={<div>Home</div>} />
-  <Route path="/our-story" element={<div>Our story</div>} />
-  <Route path="/venue" element={<div>Venue</div>} />
-  <Route path="/itinierary" element={<div>Itinierary</div>} />
-  <Route path="/registry" element={<div>Registry</div>} />
-  {/* <Route path="/" element={<Home />} /> */}
-
-  // <Route />
-  // <Route />
-// </Routes> */}
-  {/* <div>
-    {Object.keys(lngs).map((lng) => (
-      <button key={lng} style={{ fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }} type="submit" onClick={() => i18n.changeLanguage(lng)}>
-        {lngs[lng].nativeName}
-      </button>
-    ))}
-  </div>
-  <div>{t('description.part2')}</div>
-  <div>{t('description.part1')}</div> */}
-{/* </> */}
