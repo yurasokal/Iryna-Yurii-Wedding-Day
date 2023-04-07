@@ -19,6 +19,7 @@
     border: 1px solid $text-primary;
     padding: 5px 30px;
     cursor: pointer;
+    min-width: 125px;
 
     &--desktop {
       @media screen and (max-width: 768px) {
